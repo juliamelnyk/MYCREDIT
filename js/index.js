@@ -1,0 +1,32 @@
+$('.owl-carousel').owlCarousel({
+    loop:false,
+    margin:10,
+    dots: false,
+    nav:true,
+    navText: ['<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="8px" height="13.044px" viewBox="0 0 8 13.044" enable-background="new 0 0 8 13.044" xml:space="preserve"><path fill="#4582c6" d="M6.475,13.044L8,11.596L3.01,6.532L8,1.542L6.513,0C6.499,0,6.492,0,6.472,0.021L0,6.494L6.475,13.044z"/></svg>','<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="8px" height="13.044px" viewBox="0 0 8 13.044" enable-background="new 0 0 8 13.044" xml:space="preserve"> <path fill="#4582c6" d="M1.525,0L0,1.448l4.99,5.064L0,11.502l1.487,1.542c0.014,0,0.021,0,0.041-0.021L8,6.55L1.525,0z"/></svg>'],
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:true
+        },
+        700:{
+            items:2,
+            nav:true
+        },
+        900:{
+            items:3,
+            nav:true,
+            loop:false
+        },
+        1200:{
+            items:4,
+            nav:true,
+            loop:false
+        }
+    }
+})
